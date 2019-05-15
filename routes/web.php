@@ -13,10 +13,10 @@
 
 Route::get('/', 'PageController@index' );
 Route::get('/about', 'PageController@about' );
-Route::get('/offer', 'PageController@offer' );
 Route::get('/gallery', 'PageController@gallery' );
 Route::get('/catering', 'PageController@catering' );
 Route::get('/shop', 'PageController@shop' );
-Auth::routes();
+//Route::get('/offer', 'PageController@offer' );
+//Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

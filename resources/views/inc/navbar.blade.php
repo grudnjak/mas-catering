@@ -32,21 +32,21 @@
                                                     <a href="/">DOMOV</a> 
                                                 </li>
 
-                                                <li ><a href="/about">O podjetju</a>
+                                                <li ><a href="/about">NAJINA ZGODBA</a>
                                                 </li>
-
+<!-- 
                                                 <li>
-                                                    <a href="/offer">Ponudba</a>                                          
-                                                </li>
+                                                    <a href="/offer">PONUDBA</a>                                          
+                                                </li>-->
                                                 <li >
-                                                    <a href="/shop">Trgovinica</a> 
+                                                    <a href="/shop">MAŠ ZA MAL'CO</a> 
                                                     
                                                 </li>
                                                 <li>
-                                                        <a href="/catering">Catering</a>                                           
+                                                        <a href="/catering">CATERING</a>                                           
                                                 </li>
                                                 <li>
-                                                        <a href="/gallery">Galerija</a>     
+                                                        <a href="/gallery">GALERIJA</a>     
                                                                           
                                                 </li>
                                              
@@ -57,27 +57,27 @@
                                                 <button class="dl-trigger">Meni</button>
 
                                                 <ul class="dl-menu">
-                                                         <li >
-                                                    <a href="/">DOMOV</a> 
-                                                </li>
-
-                                                <li ><a href="/about">O podjetju</a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="/offer">Ponudba</a>                                          
-                                                </li>
-                                                <li >
-                                                    <a href="/shop">Trgovinica</a> 
-                                                    
-                                                </li>
-                                                <li>
-                                                        <a href="/catering">Catering</a>                                           
-                                                </li>
-                                                <li>
-                                                        <a href="/gallery">Galerija</a>     
-                                                                          
-                                                </li>
+                                                        <li >
+                                                                <a href="/">DOMOV</a> 
+                                                            </li>
+            
+                                                            <li ><a href="/about">NAJINA ZGODBA</a>
+                                                            </li>
+            
+                                                            <!--<li>
+                                                                <a href="/offer">PONUDBA</a>                                          
+                                                            </li>-->
+                                                            <li >
+                                                                <a href="/shop">MAŠ ZA MAL'CO</a> 
+                                                                
+                                                            </li>
+                                                            <li>
+                                                                    <a href="/catering">CATERING</a>                                           
+                                                            </li>
+                                                            <li>
+                                                                    <a href="/gallery">GALERIJA</a>     
+                                                                                      
+                                                            </li>
 
                                                 </ul><!-- .dl-menu end -->
                                             </div><!-- (Responsive menu) #dl-menu end -->
