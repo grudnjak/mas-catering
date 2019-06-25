@@ -50,6 +50,15 @@
                                                         <a href="/contact">KONTAKT</a>     
                                                                           
                                                 </li>
+
+                                                @if(!Auth::guest())
+                                                 <li>
+                                                 <a href="/home">home</a>     
+
+                                                 </li>
+
+                                             @endif
+                                      
                                              
                                             </ul><!-- .nav.navbar-nav.pi-nav end -->
 
@@ -64,7 +73,9 @@
             
                                                             <li ><a href="/about">NAJINA ZGODBA</a>
                                                             </li>
-            
+                                                            <li>
+                                                                    <a href="/catering">CATERING</a>                                           
+                                                            </li>
                                                             <!--<li>
                                                                 <a href="/offer">PONUDBA</a>                                          
                                                             </li>-->
@@ -72,13 +83,19 @@
                                                                 <a href="/shop">MAŠ ZA MAL'CO</a> 
                                                                 
                                                             </li>
-                                                            <li>
-                                                                    <a href="/catering">CATERING</a>                                           
-                                                            </li>
+                                                            
                                                             <li>
                                                                     <a href="/gallery">GALERIJA</a>     
                                                                                       
                                                             </li>
+
+                                        @if(!Auth::guest())
+                                                 <li>
+                                                 <a href="/home">DASHBOARD</a>     
+
+                                                 </li>
+
+                                             @endif
 
                                                 </ul><!-- .dl-menu end -->
                                             </div><!-- (Responsive menu) #dl-menu end -->

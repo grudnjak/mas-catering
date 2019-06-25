@@ -27,12 +27,12 @@
     <link rel="stylesheet" href="css/magnific-popup.css" />
 
     <!-- Google Web fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
     <link href='https://fonts.googleapis.com/css?family=Suranna' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'>
 
     <!-- Font icons -->
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"/><!-- Font awesome icons -->
+   
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
@@ -62,7 +62,6 @@
 <script src="owl-carousel/owl.carousel.min.js"></script><!-- Carousels script -->
 <script src="js/jquery.dlmenu.min.js"></script><!-- for responsive menu -->
 <script src="js/include.js"></script><!-- custom js functions -->
-<script src="js/instagram-stream.jquery.js"></script><!-- instagram stream plugin -->
 <script src="js/TweenMax.min.js"></script> <!-- Plugin for smooth scrolling-->
 <script src="js/retina.min.js"></script><!-- retina images script -->
 <script src="js/ScrollToPlugin.min.js"></script> <!-- Plugin for smooth scrolling-->
