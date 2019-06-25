@@ -127,7 +127,7 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="team-member">                                
                         <figure>
-                            <img src="img/pics/team-1.jpg" alt="Royal Plate - Restaurant & Catering HTML Template"/>
+                            <img src="/storage/user.jpeg" alt="Royal Plate - Restaurant & Catering HTML Template"/>
 
                             <figcaption>
                                 <h4 class="member-name">Anja Špital</h4>
@@ -149,7 +149,7 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="team-member">                               
                         <figure>
-                            <img src="img/pics/team-2.jpg" alt="Royal Plate - Restaurant & Catering HTML Template"/>
+                            <img src="/storage/user.jpeg" alt="Royal Plate - Restaurant & Catering HTML Template"/>
 
                             <figcaption>
                                 <h4 class="member-name">Metod Špital</h4>

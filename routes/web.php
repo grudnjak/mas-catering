@@ -16,7 +16,12 @@ Route::get('/about', 'PageController@about' );
 Route::get('/gallery', 'PageController@gallery' );
 Route::get('/catering', 'PageController@catering' );
 Route::get('/shop', 'PageController@shop' );
-//Route::get('/offer', 'PageController@offer' );
-//Auth::routes();
+Route::get('/contact', 'PageController@contact' );
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
