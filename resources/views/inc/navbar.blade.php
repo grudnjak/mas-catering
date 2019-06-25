@@ -34,19 +34,20 @@
 
                                                 <li ><a href="/about">NAJINA ZGODBA</a>
                                                 </li>
-<!-- 
                                                 <li>
-                                                    <a href="/offer">PONUDBA</a>                                          
-                                                </li>-->
+                                                        <a href="/catering">CATERING</a>                                           
+                                                </li>
                                                 <li >
                                                     <a href="/shop">MAŠ ZA MAL'CO</a> 
                                                     
                                                 </li>
-                                                <li>
-                                                        <a href="/catering">CATERING</a>                                           
-                                                </li>
+                                               
                                                 <li>
                                                         <a href="/gallery">GALERIJA</a>     
+                                                                          
+                                                </li>
+                                                <li>
+                                                        <a href="/contact">KONTAKT</a>     
                                                                           
                                                 </li>
                                              

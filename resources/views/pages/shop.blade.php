@@ -10,7 +10,7 @@
                 <!-- .col-md-12 start -->
                 <div class="col-md-12 centered">
                     <div class="custom-heading style-1 triggerAnimation animated" data-animate='fadeInUp'>
-                        <h1><span>Specializirana trgovinica za malice</span></h1>
+                        <h1><span style="color:black"> Specializirana trgovinica za malice</span></h1>
                         <h1>MAŠ za MAL´CO</h1>
                     </div><!-- .custom-heading.style-1 end -->
                 </div><!-- .col-md-12 end -->
@@ -96,6 +96,7 @@
         </div><!-- .container end -->
     </div><!-- .page-content end -->
 
+   
     <!-- .page-content start -->
     <div class="page-content">
         <div class="container">
@@ -105,23 +106,23 @@
                 <div class="col-md-12 centered mb-0">
                     <div class="custom-heading style-1">
                         <h2><span>Obiščite nas</span></h2>
-                        <h2>NAŠA LOKACIJA</h2>
+                        <h2>Naša lokacija</h2>
 
-                        <!-- .divider.style-2 start -->
-                        <div class="divider style-2 center">
-                            <span class="hr-double left"></span>
-                          
-                            <span class="hr-double right"></span>
-                        </div>
+                    
                     </div><!-- .custom-heading.style-1 end -->
                 </div><!-- .col-md-12 end -->
             </div><!-- .row end -->
             <!-- .row start -->
             <div class="row">
                 <!-- .col-md-4 start -->
-                <div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="col-md-4 col-sm-2 ">
+                   
+                </div><!-- .col-md-4 end -->
+
+                <!-- .col-md-4 start -->
+                <div class="col-md-4 col-sm-8">
                     <div class="custom-heading style-2">
-                        <h4>MAŠ ZA MAL´CO</h4>
+                        <h4>MAŠ ZA MAL'CO</h4>
                         <div class="divider style-1">
                             <i class="fa fa-circle hr-icon left"></i>
                             <span class="hr-simple right"></span>
@@ -129,28 +130,31 @@
                     </div><!-- .custom-heading.style-2 end -->
 
                     <ul>
-                        <li>Tomšičeva ulica 10b,</li>
-                        <li>3320 Velenje</li>
+                        <li>Tomšičeva 10b</li>
+                        <li>3330 Velenje</li>
                         <li>Slovenija</li>
                     </ul>
-                    <h5>ODPIRALNI ČAS:</h5>
+                    <h5>OPENING HOURS:</h5>
                     <ul>
-                        <li>Pon - Pet:  7:00 do 14:00</li>
+                        <li>Pon - Pet: 7:00 do 14:00</li>
                     </ul>
-                    <h5>KONTAKT:</h5>
+                    <h5>CONTACT:</h5>
                     <ul>
-                        <li>Telefon: +386 40 851 282
-                               </li>
-                        <li> Email: info@mas-catering.si</li>
+                        <li>+386 40 851 282</li>
+                        <li>
+                            info@mas-catering.si
+                            </li>
                     </ul>
-                    
+
                 </div><!-- .col-md-4 end -->
 
-                
+                <!-- .col-md-4 start -->
+                <div class="col-md-4 col-sm-2">
+                    
+                </div><!-- .col-md-4 end -->
             </div><!-- .row end -->
         </div><!-- .container end -->
     </div><!-- .page-content end -->
-
 
 
     @endsection
