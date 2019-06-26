@@ -29,28 +29,51 @@
                     <div class="col-md-12 centered">
                         <p class="emphasized-text">Telefon: <span>+386 40 851 282</span></p>
                         <p class="emphasized-text">Email: <span>info@mas-catering.si</span></p>
-                        <!-- form start -->
-                        <form class="wpcf7">
-                            <fieldset>
-                                <span class="wpcf7-form-control-wrap your-name">
-                                    <input type="text" class="wpcf7-text" id="contact-name" placeholder="Your name...">
-                                </span>
-                                <span class="wpcf7-form-control-wrap your-email">
-                                    <input type="email" name="email" class="wpcf7-text" id="contact-email" placeholder="Email...">
-                                </span>
-                            </fieldset>
+                       
 
-                            <fieldset>
-                                <span class="wpcf7-form-control-wrap your-message">
-                                    <textarea rows="8" class="wpcf7-textarea" id="contact-message" placeholder="Message..."></textarea>
-                                </span>
-                            </fieldset>
-                            <input type="submit" class="wpcf7-submit btn btn-big black btn-centered" value="Send">
-                        </form><!-- .wpcf7 end -->
+                        <form>
+                                <div class="form-group">
+                                        <label for="name">Ime in priimek:</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Ime in Priimek" required>
+                                      </div>
+                                <div class="form-group">
+                                  <label for="email">E-poštni naslov:</label>
+                                  <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                                </div>
+                                <div class="form-group">
+                                        <label for="date">Datum:</label>
+                                        <input type="date" class="form-control" id="date" required>
+                                      </div>
+                                      <div class="form-group">
+                                            <label for="date">Št. ljudi:</label>
+                                            <input type="number" class="form-control" id="people">
+                                          </div>      
+                                <div class="form-group">
+                                  <label for="type">Vrsta cateringa</label>
+                                  <select class="form-control" id="type" required>
+                                    <option>Topli</option>
+                                    <option>Hladni</option>
+                                    <option>Topli in hladni</option>
+                                    <option>Izposoja šotora in inventarja</option>
+                                    <option>Strežba</option>
+                                    <option>Drugo</option>
+                                  </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                  <label for="info">Dodatne informacije</label>
+                                  <textarea class="form-control" id="info" rows="5" required></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-big gold">Pošlji povpraševanje</button>
+                              </form>
+
+
+
                     </div><!-- .col-md-12 end -->
                 </div><!-- .row end -->
             </div><!-- .container end -->
         </div><!-- .page-content end -->
     
-
+    
     @endsection

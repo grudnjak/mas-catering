@@ -22,6 +22,12 @@
     <link rel="stylesheet" href="masterslider/skins/default/style.css" /><!-- Master slider default skin -->
     <link rel='stylesheet' href='owl-carousel/owl.carousel.css'/><!-- Events carousel -->
     <link rel='stylesheet' href='owl-carousel/owl.theme.css'/><!-- Events carousel -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/fluid-gallery.css">
+    <link rel="stylesheet" href="css/baguetteBox.min.css">
+    <script src="js/baguetteBox.min.js" async></script>
 
     <!-- Magnific Popup - image lightbox -->
     <link rel="stylesheet" href="css/magnific-popup.css" />
