@@ -1,15 +1,15 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Post;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
 { 
     public function index(){
-   
+      $posts = Post::orderBy('created_at','desc')->limit(5)->get();
       
-     return view('index');
+     return view('index')->with('posts',$posts);
   }
   public function about(){
      
