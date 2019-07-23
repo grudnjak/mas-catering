@@ -17,49 +17,36 @@
     </div><!-- .container end -->
 </div><!-- .page-content end -->
 </div><!-- .row end -->
-<div>
-    
-        
-        <div class="tz-gallery">
-    
+
+
+    <div class="page-content">
+        <div class="container-fluid">
             <div class="row">
-    
-                <div class="col-sm-12 col-md-4">
+                <ul id="galleryitems" class="isotope isotopeitems-full">
+
+                        @if(count($slike) >= 1)
+
+                        @foreach ($slike as $key => $slika)
+                    <li class="col-xs-12 col-md-6 col-lg-6 isotope-item">
+                        
+                        <figure class="gallery-item-container">
+                            <div class="gallery-img">
+                                <img src="/storage/cover_images/{{$slika->cover_image}}" alt=" "/>
+
+                                <div class="hover-mask-container">
+                                    <div class="hover-zoom">
+                                        <a href="/storage/cover_images/{{$slika->cover_image}}"class="triggerZoom fa fa-search"></a>
+                                    </div><!-- .hover-zoom end -->
+                                </div><!-- .hover-mask-container end -->
+                            </div><!-- .gallery-img end -->
+                        </figure><!-- .gallery-item-container end -->
+                    </li><!-- .isotope-item end -->
+ @endforeach
+ @endif
                     
-                        <img src="/storage/galerija.jpg" alt="Bridge">
-                    
-                </div>
-                <div class="col-sm-6 col-md-4">
-                  
-                        <img src="/storage/galerija.jpg" alt="Park">
-                   
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    
-                        <img src="/storage/galerija.jpg" alt="Tunnel">
-                 
-                </div>
-                <div class="col-sm-12 col-md-8">
-                   
-                        <img src="/storage/galerija.jpg" alt="Traffic">
-                  
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    
-                        <img src="/storage/galerija.jpg" alt="Coast">
-         
-                </div> 
-                <div class="col-sm-6 col-md-4">
-                 
-                        <img src="/storage/galerija.jpg" alt="Rails">
-         
-                </div>
-    
-            </div>
-    
-        </div>
-    
-    </div>
-    
+                </ul><!-- #galleryitems.isotope end -->
+            </div><!-- .row end -->
+        </div><!-- .container-fluid end -->
+    </div><!-- .page-content end -->
 
 @endsection

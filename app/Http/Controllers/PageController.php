@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Post;
+use App\Galerija;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -22,7 +23,9 @@ class PageController extends Controller
  }
  public function gallery(){
      
-    return view('pages.gallery');
+   $slike = Galerija::orderBy('created_at','desc')->limit(12)->get();
+      
+    return view('pages.gallery')->with('slike',$slike);
  }
  public function shop(){
      

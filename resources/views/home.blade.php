@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="page-content page-title ">
+<div class="page-content page-title " style="background-color:#B99976">
 <div class="container">
 <div class="card">
         <div class="card-header"></div>
@@ -42,12 +42,13 @@
                         </div><!-- .col-md-4 end -->
                         <div class="col-md-4 col-sm-6">
                                 <h2>Galerija</h2>
-                                <a href="#" class="btn btn-big black"><span>Vse slike</span></a>
-                                <a href="#" class="btn btn-big black"><span>Dodaj sliko</span></a>
+                                <a href="/galerija" class="btn btn-big black"><span>Vse slike</span></a>
+                                <a href="/galerija/create" class="btn btn-big black"><span>Dodaj sliko</span></a>
                             </div><!-- .col-md-4 end -->
                             <div class="col-md-4 col-sm-6">
-                                    <h2>Povpraševanja</h2>
-                                    <a href="#" class="btn btn-big black"><span>Vsa povpraševanja</span></a>
+                                    <h2>Jedilniki</h2>
+                                    <a href="/jedilniki" class="btn btn-big black"><span>Jedilniki</span></a>
+                                    <a href="/jedilniki/create" class="btn btn-big black"><span>Dodaj jedilniki</span></a>
                                 </div><!-- .col-md-4 end -->
     
                     </div>

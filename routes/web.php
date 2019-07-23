@@ -16,9 +16,14 @@ Route::get('/about', 'PageController@about' );
 Route::get('/gallery', 'PageController@gallery' );
 Route::get('/catering', 'PageController@catering' );
 Route::get('/shop', 'PageController@shop' );
-Route::get('/contact', 'PageController@contact' );
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('posts', 'PostsController'); 
+Route::resource('jedilniki', 'JedilnikController'); 
+Route::resource('galerija', 'GalerijaController'); 
+
+//mail
+Route::get('contact-us', 'ContactUSController@contactUS');
+Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@contactUSPost']);

@@ -29,37 +29,37 @@
                                         <div class="collapse navbar-collapse">
                                             <ul class="nav navbar-nav pi-nav">
                                                 <li >
-                                                    <a href="/" style="color:lightgray">DOMOV</a> 
+                                                    <a href="/" style="color:#DEDEDE">DOMOV</a> 
                                                 </li>
 
-                                                <li ><a href="/about" style="color:lightgray">NAJINA ZGODBA</a>
+                                                <li ><a href="/about" style="color:#DEDEDE">NAJINA ZGODBA</a>
                                                 </li>
                                                 <li>
-                                                        <a href="/catering" style="color:lightgray">CATERING</a>                                           
+                                                        <a href="/catering" style="color:#DEDEDE">CATERING</a>                                           
                                                 </li>
                                                 <li >
-                                                    <a href="/shop" style="color:lightgray">MAŠ ZA MAL'CO</a> 
+                                                    <a href="/shop" style="color:#DEDEDE">MAŠ ZA MAL'CO</a> 
                                                     
                                                 </li>
                                                
                                                 <li>
-                                                        <a href="/gallery" style="color:lightgray">GALERIJA</a>     
+                                                        <a href="/gallery" style="color:#DEDEDE">GALERIJA</a>     
                                                                           
                                                 </li>
                                                 <li>
-                                                        <a href="/contact" style="color:lightgray">KONTAKT</a>     
+                                                        <a href="/contact" style="color:#DEDEDE">KONTAKT</a>     
                                                                           
                                                 </li>
+                                                
 
                                                 @if(!Auth::guest())
                                                  <li>
-                                                 <a href="/home" style="color:lightgray">home</a>     
+                                                 <a href="/home" style="color:#DEDEDE">home</a>     
 
                                                  </li>
 
                                              @endif
-                                      
-                                             
+                                            
                                             </ul><!-- .nav.navbar-nav.pi-nav end -->
 
                                             <!-- Responsive menu start -->
@@ -108,3 +108,6 @@
                 </div><!-- .header-inner end -->
             </header><!-- #header end -->
         </div><!-- #header-wrapper end -->
+
+
+        

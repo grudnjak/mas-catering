@@ -3,14 +3,14 @@
 @section('content')
  
 <!-- .page-content start -->
-<div class="page-content custom-img-background dark page-title page-title-1 mb-100" style="background-image: url('/storage/about3.jpg');">
+<div class="page-content custom-img-background dark page-title page-title-1 mb-100" style="background-image: url('/storage/about_us_love.jpg');">
         <div class="container">
             <!-- .row start -->
             <div class="row">
                 <!-- .col-md-12 start -->
                 <div class="col-md-12 centered">
                     <div class="custom-heading style-1 triggerAnimation animated" data-animate='fadeInUp'>
-                        <h1><span style="color:silver ">Najina zgodba</span></h1>
+                        <h1><span >Najina zgodba</span></h1>
                         <h1 style="color:black">MAŠ</h1>
                     </div><!-- .custom-heading.style-1 end -->
                 </div><!-- .col-md-12 end -->
@@ -42,8 +42,8 @@
                     </div><!-- .custom-heading.style-1 end -->
 
                     <div class="blockquote style-1 triggerAnimation animated" data-animate='fadeIn'>
-                        <p>"Ni večje ljubezni kot ljubezen do hrane"</p>
-                        <span class="author">- George Bernard Shaw</span>
+                        <p>"SKRIVNA SESTAVINA JE VEDNO: LJUBEZEN"</p>
+                        
                     </div>
 
                     <p>Najino zgodbo sva »uradno« začela graditi leta 2012 in od takrat naprej strmiva k napredku, nadgradnji in izpopolnjevanju najinega znanja. 
@@ -124,48 +124,22 @@
         <div class="container">
             <!-- .row start -->
             <div class="row">
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-12 col-sm-12">
                     <div class="team-member">                                
                         <figure>
-                            <img src="/storage/user.jpeg" alt="Royal Plate - Restaurant & Catering HTML Template"/>
+                            <img src="/storage/metod_anja.jpg" alt="Anja Špital in Metod Špital"/>
 
                             <figcaption>
-                                <h4 class="member-name">Anja Špital</h4>
-                                <p class="member-position">Chef de cousine</p>
+                                <h4 class="member-name">Anja Špital in Metod Špital</h4>
+                               
 
-                                <!-- .divider start -->
-                                <div class="divider">
-                                    <span class="hr-simple"></span>
-                                </div>
-
-                                <p class="member-about">Meet Keith Simmons, chef de cousine in our restaurant.
-                                    Keith has 10 years of experience in restaurant business. His favorite food is beaf steak.</p>
-                            </figcaption>   
+                                 </figcaption>   
                         </figure>
                     </div><!-- .team-member end -->
 
                 </div><!-- .col-md-4 end -->
 
-                <div class="col-md-6 col-sm-6">
-                    <div class="team-member">                               
-                        <figure>
-                            <img src="/storage/user.jpeg" alt="Royal Plate - Restaurant & Catering HTML Template"/>
-
-                            <figcaption>
-                                <h4 class="member-name">Metod Špital</h4>
-                                <p class="member-position">Head waiter</p>
-
-                                <!-- .divider start -->
-                                <div class="divider">
-                                    <span class="hr-simple"></span>
-                                </div>
-
-                                <p class="member-about">Ashley Cooper is head waiter in Royal Plate and an experienced vine taster.
-                                    Her favorite vine is Chardonnay.</p>
-                            </figcaption>   
-                        </figure>
-                    </div><!-- .team-member end -->
-                </div><!-- .col-md-4 end -->
+              
 
             </div><!-- .row end -->
         </div><!-- .container end -->

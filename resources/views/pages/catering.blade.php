@@ -3,15 +3,15 @@
 @section('content')
  
 <!-- .page-content start -->
-<div class="page-content custom-img-background dark page-title page-title-1 mb-100" style="background-image: url('/storage/catering-bg.jpeg');" >
+<div class="page-content custom-img-background dark page-title page-title-1 mb-100" style="background-image: url('/storage/catering-bg.jpg');" >
         <div class="container">
             <!-- .row start -->
             <div class="row">
                 <!-- .col-md-12 start -->
                 <div class="col-md-12 centered">
                     <div class="custom-heading style-1 triggerAnimation animated" data-animate='fadeInUp'>
-                        <h1><span></span></h1>
-                        <h1 style="color:black">CATERING ZA VSE PRILOŽNOSTI</h1>
+                        <h1><span>Catering</span></h1>
+                        <h1 style="color:black">ZA VSE PRILOŽNOSTI</h1>
                     </div><!-- .custom-heading.style-1 end -->
                 </div><!-- .col-md-12 end -->
             </div><!-- .row end -->
@@ -46,7 +46,7 @@
                 </div><!-- .col-md-6 end -->
                 <!-- .col-md-6 start -->
                 <div class="col-md-6 col-sm-6">
-                    <img src="/storage/catering-tople-jedi.jpeg" alt="Royal Plate - Restaurant & Catering HTML Template" />
+                    <img src="/storage/catering-tople-jedi.jpg" alt="topli catering" />
                 </div><!-- .col-md-6 end -->
             </div><!-- .row end -->
         </div><!-- .container end -->
@@ -58,7 +58,7 @@
                     <div class="row">
                         <!-- .col-md-6 start -->
                         <div class="col-md-6 col-sm-6">
-                            <img src="/storage/hladne-jedi.jpeg" alt="Royal Plate - Restaurant & Catering HTML Template" />
+                            <img src="/storage/hladne-jedi.jpg" alt="hladni catering" />
                         </div><!-- .col-md-6 end -->
                         <!-- .col-md-6 start -->
                         <div class="col-md-6 col-sm-6 centered">
@@ -112,7 +112,7 @@
                    </div><!-- .col-md-6 end -->
                 <!-- .col-md-6 start -->
                 <div class="col-md-6 col-sm-6">
-                    <img src="/storage/dekoracija.jpeg" alt="Royal Plate - Restaurant & Catering HTML Template" />
+                    <img src="/storage/dekoracija.jpg" alt="dekoracija" />
                 </div><!-- .col-md-6 end -->
             </div><!-- .row end -->
         </div><!-- .container end -->
@@ -158,7 +158,7 @@
             <h2>REFERENCE: </h2>
             <!-- .row start -->
             <div class="row">
-                <div class="col-md-2 col-sm-12">
+                <div class="col-md-2 col-sm-6 col-xs-6">
                     <div class="team-member">                                
                         <figure>
                             <img src="/storage/skaza.png" alt="Royal Plate - Restaurant & Catering HTML Template"/>
@@ -178,7 +178,7 @@
                     
 
                 </div><!-- .col-md-4 end -->
-                <div class="col-md-2 col-sm-12">
+                <div class="col-md-2 col-sm-6 col-xs-6">
                         <div class="team-member">                              
                             <figure>
                                 <img src="/storage/velenje.png" alt="MO Velenje"/>
@@ -199,7 +199,7 @@
                     </div><!-- .col-md-4 end -->
 
                 
-                <div class="col-md-2 col-sm-12">
+                <div class="col-md-2 col-sm-6 col-xs-6">
                     <div class="team-member">                              
                         <figure>
                             <img src="/storage/glasbena-vel.jpeg" alt=""/>
@@ -219,7 +219,7 @@
                     </div><!-- .team-member end -->
                 </div><!-- .col-md-4 end -->
 
-                <div class="col-md-2 col-sm-12">
+                <div class="col-md-2 col-sm-6 col-xs-6">
                         <div class="team-member">                               
                             <figure>
                                 <img src="/storage/inkubator.png" alt="Saša inkubator"/>
@@ -241,7 +241,7 @@
     
 
                 
-  <div class="col-md-2 col-sm-12">
+  <div class="col-md-2 col-sm-6 col-xs-6">
                     <div class="team-member">                              
                         <figure>
                             <img src="/storage/ukc.jpg" alt="UKC Lj"/>
@@ -260,7 +260,8 @@
                         </figure>
                     </div><!-- .team-member end -->
                 </div><!-- .col-md-4 end -->
-                <div class="col-md-2 col-sm-12">
+
+                <div class="col-md-2 col-sm-6 col-xs-6">
                         <div class="team-member">                              
                             <figure>
                                 <img src="/storage/ooz.png" alt="ooz velenje"/>

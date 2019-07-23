@@ -22,6 +22,14 @@ class User extends Authenticatable
     public function posts(){
         return $this->hasMany('App\Post');
     }
+
+    public function galerija(){
+        return $this->hasMany('App\Galerija');
+    }
+
+    public function jedilniki(){
+        return $this->hasMany('App\Jedilnik');
+    }
     /**
      * The attributes that should be hidden for arrays.
      *

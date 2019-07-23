@@ -205,7 +205,7 @@ body {
     font-size: 15px;
     line-height: 23px;
     color: #777777;
-    background-color :rgba(255 ,255, 255);
+    background-color: #fff;
 }
 .row {
     margin-bottom: 100px;
@@ -3623,3 +3623,4 @@ textarea:-ms-input-placeholder {
     -ms-transition: all 0.1s ease 0s;
     transition: all 0.1s ease 0s;
 }
+

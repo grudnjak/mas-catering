@@ -2,7 +2,7 @@
 @section('content')
 <div class="page-content mb-100 page-title" >
         <div class="container">
-    <h1>Create post</h1>
+    <h1>Dodaj novico</h1>
     {!! Form::open(["action" => "PostsController@store", "method" => "POST",'enctype'=>'multipart/form-data']) !!}
     <div class="form-group">
         {{Form::label('title','Title ')}}
