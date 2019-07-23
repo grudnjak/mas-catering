@@ -25,5 +25,5 @@ Route::resource('jedilniki', 'JedilnikController');
 Route::resource('galerija', 'GalerijaController'); 
 
 //mail
-Route::get('contact-us', 'ContactUSController@contactUS');
-Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@contactUSPost']);
+Route::get('/contact', ['uses'=>'ContactUSController@contactUS']);
+Route::post('/contact', ['uses'=>'ContactUSController@contactUSPost','as'=>'contactus.store']);

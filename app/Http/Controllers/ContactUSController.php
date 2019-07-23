@@ -3,6 +3,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\ContactUS;
+use Mail;
 class ContactUSController extends Controller
 {
    /**
@@ -12,7 +13,7 @@ class ContactUSController extends Controller
     */
    public function contactUS()
    {
-       return view('pages.contact');
+       return view('contactUS');
    }
    /**
     * Show the application dashboard.
@@ -21,6 +22,7 @@ class ContactUSController extends Controller
     */
    public function contactUSPost(Request $request)
    {
+      
        $this->validate($request, [
         'name' => 'required',
         'email' => 'required',
@@ -29,18 +31,19 @@ class ContactUSController extends Controller
         'vrsta' => 'required',
         'body' => 'required'
         ]);
+     
      //
-      // $contactus = new ContactUS;
-       //$contactus->name = $request->input('name')  ;
-       //$contactus->email = $request->input('email')  ;
-       //$contactus->date = $request->input('date')  ;
-       //$contactus->steviloLjudi = $request->input('steviloLjudi')  ;
-       //$contactus->vrsta = $request->input('vrsta')  ;
-       //$contactus->body = $request->input('body')  ;
+      $contactus = new ContactUS;
+       $contactus->name = $request->input('name')  ;
+       $contactus->email = $request->input('email')  ;
+       $contactus->date = $request->input('date')  ;
+       $contactus->steviloLjudi = $request->input('steviloLjudi	')  ;
+       $contactus->vrsta = $request->input('vrsta')  ;
+       $contactus->body = $request->input('body')  ;
 
-       //$contactus->save();
+       $contactus->save();
 
-       ContactUS::create($request->all());
+       //ContactUS::create($request->all());
 
        return back()->with('success', 'Thanks for contacting us!');
 

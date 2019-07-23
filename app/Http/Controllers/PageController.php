@@ -35,9 +35,6 @@ class PageController extends Controller
      
     return view('pages.offer');
  }
- public function contact(){
-     
-   return view('pages.contact');
-}
+
 }
 

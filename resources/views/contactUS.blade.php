@@ -36,8 +36,9 @@
    </div>
 @endif
 
-{!! Form::open(['route'=>'contactus.store']) !!}      
+<form method="POST" action="{{route('contactus.store')}}" >
 
+  {{csrf_field() }}
 <div class="form-group">
         <label for="name">Ime in priimek:</label>
         <input type="text" class="form-control" id="name" placeholder="Ime in Priimek" required>
