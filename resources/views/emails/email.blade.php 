@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+You received a message from : 
+<p>
+Name: 
+</p>
+<p>
+Email: 
+</p>
+<p>
+Message: 
+</p>
+
+</body>
+</html>
+

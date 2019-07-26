@@ -27,3 +27,4 @@ Route::resource('galerija', 'GalerijaController');
 //mail
 Route::get('/contact', ['uses'=>'ContactUSController@contactUS']);
 Route::post('/contact', ['uses'=>'ContactUSController@contactUSPost','as'=>'contactus.store']);
+

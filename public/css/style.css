@@ -603,6 +603,7 @@ a.more-details .fa{
 #header .navbar-default .navbar-collapse,
 #header .navbar-default .navbar-form {
     border: 0px solid transparent;
+
 }
 #header .navbar-default .navbar-nav > .open > a,
 #header .navbar-default .navbar-nav > .open > a:hover,
@@ -639,6 +640,7 @@ a.more-details .fa{
     display: block;
     top: 16px;
     left: 0px;
+    
 }
 #header .navbar-default .navbar-nav > li>a:hover:before {
     -webkit-animation: navItemMove 0.1s forwards;

@@ -42,7 +42,13 @@
                         </figure><!-- .gallery-item-container end -->
                     </li><!-- .isotope-item end -->
  @endforeach
+ @else
+ 
+ <p style="text-align:center">V galeriji ni slik</p>
  @endif
+
+
+
                     
                 </ul><!-- #galleryitems.isotope end -->
             </div><!-- .row end -->

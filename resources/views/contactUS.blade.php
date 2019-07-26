@@ -41,23 +41,23 @@
   {{csrf_field() }}
 <div class="form-group">
         <label for="name">Ime in priimek:</label>
-        <input type="text" class="form-control" id="name" placeholder="Ime in Priimek" required>
+        <input type="text"  name="name" class="form-control" id="name" placeholder="Ime in Priimek" required>
       </div>
 <div class="form-group">
   <label for="email">E-poštni naslov:</label>
-  <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+  <input type="email"  name="email" class="form-control" id="email" placeholder="name@example.com" required>
 </div>
 <div class="form-group">
         <label for="date">Datum:</label>
-        <input type="date" class="form-control" id="date" required>
+        <input type="date" name="date" class="form-control" id="date" required>
       </div>
       <div class="form-group">
             <label for="number">Št. ljudi:</label>
-            <input type="number" class="form-control" id="steviloLjudi">
+            <input type="number"  name="steviloLjudi" class="form-control" id="steviloLjudi" required>
           </div>      
 <div class="form-group">
   <label for="vrsta">Vrsta cateringa</label>
-  <select class="form-control" id="vrsta" required>
+  <select class="form-control" id="vrsta"  name="vrsta" required>
     <option>Topli</option>
     <option>Hladni</option>
     <option>Topli in hladni</option>
@@ -69,7 +69,7 @@
 
 <div class="form-group">
   <label for="body">Dodatne informacije</label>
-  <textarea class="form-control" id="body" rowss="5" required></textarea>
+  <textarea class="form-control" id="body" rowss="5" required name="body"></textarea>
 </div>
 
 <button type="submit" class="btn btn-big gold">Pošlji povpraševanje</button>

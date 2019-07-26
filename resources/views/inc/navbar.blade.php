@@ -26,35 +26,39 @@
                                         </div><!-- .navbar-header end -->
 
                                         <!-- Collect the nav links, forms, and other content for toggling -->
-                                        <div class="collapse navbar-collapse">
+                                        <div class="collapse navbar-collapse" >
                                             <ul class="nav navbar-nav pi-nav">
                                                 <li >
-                                                    <a href="/" style="color:#DEDEDE">DOMOV</a> 
+                                                    <a href="/" style="color:#DEDEDE; font-size:85%;">DOMOV</a> 
                                                 </li>
 
-                                                <li ><a href="/about" style="color:#DEDEDE">NAJINA ZGODBA</a>
+                                                <li ><a href="/about" style="color:#DEDEDE; font-size:85%">NAJINA ZGODBA</a>
                                                 </li>
                                                 <li>
-                                                        <a href="/catering" style="color:#DEDEDE">CATERING</a>                                           
+                                                        <a href="/catering" style="color:#DEDEDE; font-size:85%">CATERING</a>                                           
                                                 </li>
                                                 <li >
-                                                    <a href="/shop" style="color:#DEDEDE">MAŠ ZA MAL'CO</a> 
+                                                    <a href="/shop" style="color:#DEDEDE; font-size:85%">MAŠ ZA MAL'CO</a> 
                                                     
                                                 </li>
                                                
+                                                <li >
+                                                    <a href="/jedilniki" style="color:#DEDEDE; font-size:85%">MESEČNI JEDILNIKI</a> 
+                                                    
+                                                </li>
                                                 <li>
-                                                        <a href="/gallery" style="color:#DEDEDE">GALERIJA</a>     
+                                                        <a href="/gallery" style="color:#DEDEDE; font-size:85%">GALERIJA</a>     
                                                                           
                                                 </li>
                                                 <li>
-                                                        <a href="/contact" style="color:#DEDEDE">KONTAKT</a>     
+                                                        <a href="/contact" style="color:#DEDEDE; font-size:85%">KONTAKT</a>     
                                                                           
                                                 </li>
                                                 
 
                                                 @if(!Auth::guest())
                                                  <li>
-                                                 <a href="/home" style="color:#DEDEDE">home</a>     
+                                                 <a href="/home" style="color:#DEDEDE; font-size:80%">home</a>     
 
                                                  </li>
 
@@ -81,6 +85,10 @@
                                                             </li>-->
                                                             <li >
                                                                 <a href="/shop">MAŠ ZA MAL'CO</a> 
+                                                                
+                                                            </li>
+                                                            <li >
+                                                                <a href="/jedilniki" >MESEČNI JEDILNIKI</a> 
                                                                 
                                                             </li>
                                                             
