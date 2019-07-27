@@ -31,12 +31,12 @@
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Suranna' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
 
   <!-- Font icons -->
   <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css"/><!-- Font awesome icons -->
   
-
-
 </head>
 <body>
     <div id="app">
