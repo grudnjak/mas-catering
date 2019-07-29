@@ -96,6 +96,10 @@
                                                                     <a href="/gallery">GALERIJA</a>     
                                                                                       
                                                             </li>
+                                                            <li>
+                                                                    <a href="/contact" >KONTAKT</a>     
+                                                                                      
+                                                            </li>
 
                                         @if(!Auth::guest())
                                                  <li>

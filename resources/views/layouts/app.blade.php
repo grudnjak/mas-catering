@@ -40,17 +40,18 @@
 </head>
 <body>
     <div id="app">
+       
             @include('inc.navbar')
        
             @yield('content')
         
     </div>
 
-    <div id="copyright-container">
+    <div id="copyright-container" >
             <!-- .container start -->
-            <div class="container">
+            <div class="container" >
                 <!-- .row start -->
-                <div class="row">
+                <div class="row" >
                     <!-- .col-md-6 start -->
                     <div class="col-md-8 col-sm-6 col-xs-6">
                         <p>©<a href="https://www.fotografija-grudnik.si" style="color:white; font-weight:normal" >Valentin Grudnik 2019. All rights reserved.</a></p>

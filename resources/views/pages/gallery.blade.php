@@ -9,7 +9,7 @@
             <div class="col-md-12 centered">
                 <div class="custom-heading style-1 triggerAnimation animated" data-animate='fadeInUp'>
                     <h1><span>Galerija</span></h1>
-                    <h1>POGLEJTE IN SE PREPIRČAJTE </h1>
+                    <h1>POGLEJTE IN SE PREPRIČAJTE </h1>
                 </div><!-- .custom-heading.style-1 end -->
             </div><!-- .col-md-12 end -->
           
